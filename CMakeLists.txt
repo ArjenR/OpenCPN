@@ -303,7 +303,7 @@ set(
 option(OCPN_USE_NEWSERIAL "Use new serial communication implementation" ON)
 option(OCPN_USE_CURL "Use Curl libraries" ON)
 option(OCPN_USE_SVG "Use SVG graphics" ON)
-option(OCPN_USE_WEBVIEW "Use wxWidget's webview addon if available" ON)
+option(OCPN_USE_WEBVIEW "Use wxWidget's webview addon if available" OFF)
 option(OCPN_USE_LZMA "Use LZMA for chart compression" ON)
 option(OCPN_CI_BUILD "Use CI build versioning rules" OFF)
 
